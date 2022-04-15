@@ -3,6 +3,7 @@
 
 # usage
 
+$ pio run -e uno -t upload
 ## add a new board
 
 Edit the platformio.ini and add the board following the exisiting format:
