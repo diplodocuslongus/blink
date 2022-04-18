@@ -4,7 +4,9 @@
 # usage
 
 $ pio run -e uno -t upload
+
 ## add a new board
+
 
 Edit the platformio.ini and add the board following the exisiting format:
 
@@ -67,8 +69,10 @@ Tested boards:
  - Arduino micro
  - Arduino nano_33_iot
  - Arduino uno
+pio run -e uno -t upload
  - Arduino yun
  - a-star32U4 *
+pio run -e a-star32U4 -t upload
 
 
  - Attiny84
