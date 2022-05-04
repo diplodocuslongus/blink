@@ -73,8 +73,6 @@ pio run -e uno -t upload
  - Arduino yun
  - a-star32U4 *
 pio run -e a-star32U4 -t upload
-
-
  - Attiny84
  - Digispark ATTINY85 digispark-tiny
  - ESP32 esp32thing
@@ -84,9 +82,8 @@ pio run -e a-star32U4 -t upload
  - PJRC teensy31
  - PJRC teensy36
  - PJRC teensy40
- - PJRC teensy41
-https://www.pjrc.com/store/teensy41.html
-
+ - PJRC teensy41 https://www.pjrc.com/store/teensy41.html
+    $ pio run -e teensy41
  - Sipeed sipeed-longan-nano
  - ST disco_f746ng
  
