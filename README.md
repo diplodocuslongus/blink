@@ -3,7 +3,15 @@
 
 # usage
 
-$ pio run -e uno -t upload
+    $ pio run -e <environment name> -t upload
+
+Ex:
+
+    $ pio run -e uno -t upload
+
+Monitor the serial output with 
+
+    pio device monitor
 
 ## add a new board
 
@@ -16,10 +24,13 @@ Edit the platformio.ini and add the board following the exisiting format:
     board = <board ID, ex. a-star32U4>
     framework = <ex: arduino>
 
-The environment, plaform and boad name /ID can be obtained using
+The environment, plaform and board name /ID can be obtained using
 
-    pio boards <name of a boad, ex arduino> 
+    pio boards <name of a board, ex arduino> 
 
+Some boards may require a slight modification to the Blink.cpp (such as the Adafruit feather nrf52840 express) such as adding a header.
+The simplest approach is to save the Bink.cpp to a different file and specify the file in the platformio.ini with `build_src_filter`.
+Another way would be to add compiler predirective in platformio and a conditional predirective in the Blink.cpp, details about how to do this can be found on the plaformio site.
 
 ## build and upload
 
@@ -51,9 +62,11 @@ As an example for the a-star32U4 board from pololu.
 
     pio run -e a-star32U4 -t upload
 
-## new board added:
+## new boards added:
 
-- a-star32U4
+- a-star32U4 (Pololu)
+- adafruit_feather_nrf52840 (should work with any most nrf52840 adafruit boards, but only tested with the express version, Product ID: 4062)
+
 
 ## original readme from blacksetter
 
