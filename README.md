@@ -13,6 +13,17 @@ Monitor the serial output with
 
     pio device monitor
 
+# added:
+
+teensymm
+MicroMod teensy processor board.
+https://www.sparkfun.com/products/16402?utm_source=platformio.org&utm_medium=docs
+
+https://docs.platformio.org/en/latest/boards/teensy/teensymm.html
+
+https://learn.sparkfun.com/tutorials/micromod-teensy-processor-hookup-guide/all
+
+
 ## add a new board
 
 
