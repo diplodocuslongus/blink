@@ -15,6 +15,13 @@ Monitor the serial output with
 
 # added:
 
+sparkfun_mm_nrf52840
+
+For the rp2040, use 'pico'
+To upload, unplugg the board, keep press boot while  plugging the boad, then release the button.
+A usb device will appear, note the path to that device and specify it in the corresponding environment.
+
+
 teensymm
 MicroMod teensy processor board.
 https://www.sparkfun.com/products/16402?utm_source=platformio.org&utm_medium=docs
