@@ -1,4 +1,11 @@
 #include "Arduino.h"
+// TODO
+// add ifdef and precompiler in the pio..ini
+// iniini in 
+#ifdef ADAFRUIT
+#include "Adafruit_TinyUSB.h"
+#endif
+
 /*
   Blink
   Turns on an LED on for one second, then off for one second, repeatedly.
