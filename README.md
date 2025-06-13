@@ -15,10 +15,11 @@ Monitor the serial output with
 
 # added:
 
-sparkfun_mm_nrf52840
+sf_mm_nrf52840 (getting a SAM-BA fail error)
 
 For the rp2040, use 'pico'
 To upload, unplugg the board, keep press boot while  plugging the boad, then release the button.
+Or, while the board is plugged in, press and hold BOOT, momentary press RESET and then release BOOT.
 A usb device will appear, note the path to that device and specify it in the corresponding environment.
 
 
